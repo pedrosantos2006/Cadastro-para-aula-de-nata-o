@@ -103,6 +103,7 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Ano Ultimo Aniversário";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Enter += new System.EventHandler(this.label3_Enter);
             // 
             // txtAnoUltimoAniversario
             // 
@@ -114,6 +115,8 @@
             this.txtAnoUltimoAniversario.Size = new System.Drawing.Size(112, 26);
             this.txtAnoUltimoAniversario.TabIndex = 5;
             this.txtAnoUltimoAniversario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtAnoUltimoAniversario.TextChanged += new System.EventHandler(this.txtAnoUltimoAniversario_TextChanged);
+            this.txtAnoUltimoAniversario.Enter += new System.EventHandler(this.txtAnoUltimoAniversario_Enter);
             // 
             // label4
             // 
